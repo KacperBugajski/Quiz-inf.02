@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="NotoSans-Light.ttf">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form class="quiz-box">
+        <h1>Prosty test z kwalifikacji inf.02</h1>
+        <div class="answer-box">
+            <h3 class="question">Pierwszy komputer powstał</h3>
+            <input type="radio" name="question-1" id="answer-1" class="answer" value="false">
+            <label for="answer-1">W 1940r.</label>
+            <input type="radio" name="question-1" id="answer-2" class="answer" value="true">
+            <label for="answer-2">W 1945r</label>
+            <input type="radio" name="question-1" id="answer-3" class="answer" value="false">
+            <label for="answer-3">W 1950r.</label>
+            <input type="radio" name="question-1" id="answer-4" class="answer" value="false">
+            <label for="answer-4">W 1955r.</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Pierwszym zadaniem komputera było:</h3>
+            <input type="radio" name="question-2" id="answer-5" class="answer" value="false">
+            <label for="answer-5">Przestłanie zdjęć</label>
+            <input type="radio" name="question-2" id="answer-6" class="answer" value="false">
+            <label for="answer-6">Wysyłanie wiadomości</label>
+            <input type="radio" name="question-2" id="answer-7" class="answer" value="true">
+            <label for="answer-7">Wykonywanie obliczeń arytmetycznych</label>
+            <input type="radio" name="question-2" id="answer-8" class="answer" value="false">
+            <label for="answer-8">Nie miał konkretnego przypisanego celu</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Urządzeniem peryferyjnym wejścia nie jest:</h3>
+            <input type="radio" name="question-3" id="answer-9" class="answer" value="true">
+            <label for="answer-9">Ploter</label>
+            <input type="radio" name="question-3" id="answer-10" class="answer" value="false">
+            <label for="answer-10">Skaner</label>
+            <input type="radio" name="question-3" id="answer-11" class="answer" value="false">
+            <label for="answer-11">Joystick</label>
+            <input type="radio" name="question-3" id="answer-12" class="answer" value="false">
+            <label for="answer-12">Kamera internetowa</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Oprogramowaniem użytkowym nazywamy:</h3>
+            <input type="radio" name="question-4" id="answer-13" class="answer" value="false">
+            <label for="answer-13">Oprogramowanie zapewniające podstawowe procedury jego obsługi.</label>
+            <br>
+            <input type="radio" name="question-4" id="answer-14" class="answer" value="false">
+            <label for="answer-14">Oprogramowanie umożliwiające komunikację pomiędzy różnymi aplikacjami lub systemami.</label>
+            <br>
+            <input type="radio" name="question-4" id="answer-15" class="answer" value="false">
+            <label for="answer-15">Oprogramowanie tworzące środowisko do uruchamiania i kontroli zadań.</label>
+            <br>
+            <input type="radio" name="question-4" id="answer-16" class="answer" value="true">
+            <label for="answer-16">Oprogramowanie oferujące bezpośredni kontakt człowieka z komputerem</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Formatem plików graficznych może być</h3>
+            <input type="radio" name="question-5" id="answer-17" class="answer" value="false">
+            <label for="answer-17">AVI</label>
+            <input type="radio" name="question-5" id="answer-18" class="answer" value="true">
+            <label for="answer-18">JPEG</label>
+            <input type="radio" name="question-5" id="answer-19" class="answer" value="false">
+            <label for="answer-19">MOV</label>
+            <input type="radio" name="question-5" id="answer-20" class="answer" value="false">
+            <label for="answer-20">OGG</label>
+        </div>
+        <div class="answer-box">
+            <h3 class="question">Na rysunku złącze monitora oznaczone ramką czerwoną, będzie współpracowało z płytą główną wyposażoną w interfejs</h3>
+            <img src="img.jpg" alt="ZdjęcieInterfejsu">
+            <br>
+            <input type="radio" name="question-6" id="answer-21" class="answer" value="false">
+            <label for="answer-21">D-SUB</label>
+            <input type="radio" name="question-6" id="answer-22" class="answer" value="false">
+            <label for="answer-22">HDMI</label>
+            <input type="radio" name="question-6" id="answer-23" class="answer" value="true">
+            <label for="answer-23">DisplayPort</label>
+            <input type="radio" name="question-6" id="answer-24" class="answer" value="false">
+            <label for="answer-24">DVI</label>
+        </div>
+        <button type="submit">Sprawdź odpowiedzi</button>
+    </form>
+     <div class="modal">
+        <p></p>
+        <button class="close-modal">X</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
